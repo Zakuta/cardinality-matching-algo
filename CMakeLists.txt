@@ -6,7 +6,7 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -Wall -pedantic -O3")
 include_directories(lib src)
 
 #Any file that contains a main()
-set(MAIN_FILES ${CMAKE_CURRENT_SOURCE_DIR}/src/task1.cpp ${CMAKE_CURRENT_SOURCE_DIR}/tests/tests.cpp)
+set(MAIN_FILES ${CMAKE_CURRENT_SOURCE_DIR}/src/programming_task.cpp ${CMAKE_CURRENT_SOURCE_DIR}/tests/tests.cpp)
 
 file(GLOB_RECURSE SOURCE_FILES "src/**.cpp" "src/**.h" "lib/*.cpp" )
 file(GLOB_RECURSE TEST_SOURCE_FILES "tests/**.cpp")
@@ -15,7 +15,7 @@ list(REMOVE_ITEM SOURCE_FILES ${MAIN_FILES})
 list(REMOVE_ITEM TEST_SOURCE_FILES ${MAIN_FILES})
 
 #TASK1
-add_executable(task1 ${SOURCE_FILES} src/task1.cpp)
+add_executable(programming_task ${SOURCE_FILES} src/programming_task.cpp)
 
 #TESTS
 find_package(Boost 1.59.0 COMPONENTS unit_test_framework)
