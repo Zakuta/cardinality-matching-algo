@@ -25,6 +25,5 @@ queen8_8.dmx          |        32
 queen9_9.dmx          |        40
 simple.dmx            |         2
 USA-road-d.FLA.dmx    |    507967
-USA-road-d.USA.dmx    |  11325669
 xqf131.dmx            |        64
 

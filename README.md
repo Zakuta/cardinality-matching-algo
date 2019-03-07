@@ -12,7 +12,7 @@ Auxiliary heuristics applied that is not explicitly mentioned in the book:
 
 * As an extra speed-up, starting with a greedy matching until it is maximal (can be found in linear time).
 
-It would be a fun exercise to find other heuristics and optimizations that are suited for our use case.
+It would be a fun exercise to find other heuristics and optimizations that are suited for our use case. One can also find some toy examples with solutions in the [solved-examples](https://github.com/Zakuta/cardinality-matching-algo/tree/master/solved-examples) directory.
 
 
 Compile with cmake
