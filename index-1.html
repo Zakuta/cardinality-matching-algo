@@ -1,0 +1,23 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Unknown </title></head><body>
+<h1 id="combinatorial-optimization">Combinatorial-Optimization</h1>
+<p>Combinatorial Optimization WS 2016/2017 
+http://www.or.uni-bonn.de/lectures/ws16/cows16.html <br />
+Implementation of a cardinality matching algorithm with runtime O(n m logn)</p>
+<h2 id="compile-with-cmake-cool">Compile with cmake (cool)</h2>
+<p><code>mkdir build
+cd build
+cmake ..
+make</code></p>
+<h2 id="compile-without-cmake-not-so-cool">Compile without cmake (not so cool)</h2>
+<p>If cmake is not available, a simple makefile is provided as backup.
+This makefile does not allow the compilation of the tests.<br />
+To compile the main program using this makefile simply run:</p>
+<p><code>make</code> </p>
+<h2 id="usage">Usage</h2>
+<p><code>./task1 --graph file1.dmx [--hint file2.dmx]</code></p>
+<p>Graph must be provided in DIMACS format.</p>
+<h2 id="tests">Tests</h2>
+<p>Some unit tests using the Boost testing framework are provided.
+Run via: </p>
+<p><code>./tests</code></p>
+</body></html>
